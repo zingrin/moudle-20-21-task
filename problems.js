@@ -27,4 +27,20 @@ for (let i =0;i <friends.length; i++){
         bigFriends = element;
     }
 }
-console.log(bigFriends)
+// console.log(bigFriends)
+
+
+var numbers = [1,2,3,3,4,4,5,6,7,8,9,10];
+// oporer arry theke duplicat number gula bad diye uqinue number gula ber koro
+// oporer arry theke sob theke boro number konta ber koro
+var numbers = [1,2,3,3,4,4,5,6,7,8,9,10];
+
+let bigNumbers = numbers[0];
+for (let i =0; i < numbers.length; i++){
+    const element = numbers[i];
+    if(element.length < bigNumbers.length){
+        bigNumbers = element;
+    }
+
+}
+console.log(bigNumbers)
