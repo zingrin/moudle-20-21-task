@@ -1,10 +1,14 @@
 // Use a for...of loop to concatenate all the elements of an array into a single string.
- let numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+ let friends = ['Tom', 'Tim', 'Tin', 'Tik']
+
+ let newString = "";
+
+for(const friend of friends){
+newString += friend;
 
 
-for(const numbers of friends){
 }
-
+console.log(newString);
 
 
 
